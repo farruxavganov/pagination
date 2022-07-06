@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.pages {
+    list-style: none;
+}
+
+.pages__li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.pages__btn {
+    padding: 5px;
+    font-size: 1.2rem;
+    background: #ccc;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.pages__btn:hover {
+    cursor: pointer;
+}
+
+.pages__btn.active {
+    background-color: dodgerblue;
+}
+.prev, .next {
+    border-radius: 10px;
+    width: 50px;
+}
+.prev button, .next button {
+    color: #fff;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
