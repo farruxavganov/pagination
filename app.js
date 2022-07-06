@@ -1,5 +1,5 @@
 const pages = document.querySelector(".pages");
-let totalPages = 2
+let totalPages = 20
 let pageData;
 
 function pagenetion(totalPages, page){
